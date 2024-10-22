@@ -1,5 +1,8 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import ModalPopup from './components/modal';
+import Dashboard from './components/dashboard';
+
 
 export default function Home() {
   return (
@@ -90,6 +93,8 @@ export default function Home() {
           </p>
         </a>
       </div>
+
+    <Dashboard />
     </main>
   )
 }
